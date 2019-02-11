@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="practice.js" id="home"><h5>Home</h5> </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="script.html" onclick="scriphandle()" ><h5>Scripts</h5></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <div class="container-fluid" >
+
+    <div class="row" >
+           
+            <div class="col-sm-4">
+                    <div class="container welcomerow" >
+                         <h1>Welcome</h1> 
+                         <br>
+                          <p> The input name is :
+                            <br>
+                            <h2 id="displaytext"></h2></p>
+                         <br>
+                         <button class="btn btn-outline-success " onclick="prompthandle()"> 
+                          Prompt</button>
+
+                    </div>
+            </div> 
+            <div class="col-sm-8">
+                    <div class="container welcomerow">
+                            <h1>Body</h1>
+                            <br>
+                            <button class="btn btn-outline-success"  onclick="alertbut()   ">Alert</button>
+                    </div>
+            </div>
+    </div>
+  </div>  
+
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+        <div class="col footer">
+            <h1> footer</h1>
+
+        </div>
+    </div>
+  </div>
+
+  <script src="js/practice.js"></script>
+ 
+</body>
+</html>
